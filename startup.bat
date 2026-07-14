@@ -2,7 +2,7 @@
 echo Adding program to Startup...
 
 :: Path to the program you want to run on startup
-set "program=C:\Users\{changeme}\Music\startupscript.bat"
+set "program=C:\Users\{changeme}\startupscript.bat"
 
 :: Your personal Startup folder (no admin needed)
 set "startup=%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup"
