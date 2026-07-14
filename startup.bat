@@ -2,13 +2,14 @@
 echo Adding program to Startup...
 
 :: Path to the program you want to run on startup
-set "program=C:\Users\{changeme}\startupscript.bat"
+set "program=C:\Users\{CHANGEME}\CHANGEME.bat"
+:: Bat file must contain a command to execute, ex - @echo off && pythonw script.py
 
 :: Your personal Startup folder (no admin needed)
 set "startup=%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup"
 
 :: Shortcut name
-set "shortcut=%startup%\LIVE Earnings.lnk"
+set "shortcut=%startup%\{CHANGEME}.lnk"
 
 echo Creating shortcut...
 
